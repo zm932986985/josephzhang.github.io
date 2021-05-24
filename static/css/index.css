@@ -1,5 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .box {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: lightseagreen;
+}
+
+.hd-content {
+  background-color: #3d415e;
+  width: 100%;
+  height: 120px;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.body-content {
+  padding: 15px;
+}
+
+.main-card-title {
+  font-weight: bold;
+}
+.main-content {
+  margin: 20px 15px;
+}
+
+/* 项目经验 */
+
+.pro-duration {
+  display: flex;
+}
+
+.pro-duration >  div:first-child {
+  margin-right: 30px;
 }
