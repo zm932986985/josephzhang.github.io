@@ -6,89 +6,71 @@
   <title>inter</title>
   <link href="./static/css/index.css" rel=stylesheet>
   <!-- <link href="/josephzhang.github.io/static/css/index.css" rel=stylesheet> -->
-  <style>
-    *{
-  margin: 0;
-  padding: 0;
-}
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: lightseagreen;
-}
-
-.hd-content {
-  background-color: #3d415e;
-  width: 100vw;
-  height: 120px;
-  color: #fff;
-  font-size: 36px;
-  text-align: center;
-  line-height: 120px;
-}
-
-.body-content {
-  padding: 15px;
-}
-
-.main-card-title {
-  font-weight: bold;
-}
-.main-content {
-  margin: 20px 15px;
-}
-
-/* 项目经验 */
-
-.pro-duration {
-  display: flex;
-}
-
-.pro-duration >  div:first-child {
-  margin-right: 30px;
-}
-  </style>
 </head>
 
 <body>
   <div class="hd-content">javascript information</div>
   <div class="body-content">
-    <!-- <div class="main-card">
-      <div class="main-card-title">Personal introduction</div>
-    </div> -->
-    <!-- 项目经验 -->
-    <div class="main-card">
-      <div class="main-card-title">Projects</div>
-      <div class="main-content pro-content">
-        <div class="pro-duration">
-          <div>2020.1 - 2020.2</div>
-          <div>pro-one</div>
-        </div>
-        <div></div>
-        <div>there are something about pro-one</div>
-      </div>
-      <div class="main-content pro-content">
-        <div class="pro-duration">
-          <div>2020.1 - 2020.2</div>
-          <div>pro-two</div>
-        </div>
-        <div></div>
-        <div>there are something about pro-two</div>
-      </div>
-    </div>
     <!-- 工作经历 -->
     <div class="main-card">
       <div class="main-card-title">Company</div>
-      <div class="main-content">company 1</div>
+      <div class="main-block">
+        <div class="duration">
+          <div>2020.1 - 2020.2</div>
+          <div>bz</div>
+        </div>
+        <div class="company-details">
+          <div>something for your duty</div>
+          <div>something for your working details such as what is your role in a project</div>
+        </div>
+      </div>
+      <div class="main-block">
+        <div class="duration">
+          <div>2020.1 - 2020.2</div>
+          <div>bz</div>
+        </div>
+        <div>just for some jobs about</div>
+      </div>
+      <div class="main-block">
+        <div class="duration">
+          <div>2020.1 - 2020.2</div>
+          <div>bz</div>
+        </div>
+        <div>just for some jobs about</div>
+      </div>
     </div>
+    <div class="divider"></div>
+    <!-- 项目经验 -->
+    <div class="main-card">
+      <div class="main-card-title">Projects</div>
+      <div class="main-block pro-content">
+        <div class="duration">
+          <div>2020.1 - 2020.2</div>
+          <div>react</div>
+        </div>
+        <div class="font-gray font-small">BZ</div>
+        <div>there are something about pro-one</div>
+      </div>
+      <div class="main-block pro-content">
+        <div class="duration">
+          <div>2020.1 - 2020.2</div>
+          <div>vue</div>
+        </div>
+        <div class="font-gray font-small">ba</div>
+        <div>there are something about pro-two</div>
+      </div>
+    </div>
+    <div class="divider"></div>
     <!-- 教育经历 -->
     <div class="main-card">
       <div class="main-card-title">Education</div>
-      <div class="main-content">edu 1</div>
+      <div class="main-block">gench 2014.9 - 2019.3</div>
     </div>
+    <div class="divider"></div>
     <!-- 其他 -->
     <div class="main-card">
       <div class="main-card-title">More</div>
+      CET4
     </div>
     <a href="">learn more</a>
   </div>
